@@ -10,7 +10,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class AproposController extends AbstractController
 {
-    #[Route('/aPropos', name: 'aPropos')]
+    #[Route('/apropos', name: 'apropos')]
     public function aPropos(): Response
     {
         return $this->render('apropos.html.twig');
