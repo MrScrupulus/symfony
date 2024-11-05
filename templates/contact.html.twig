@@ -1,16 +1,11 @@
-{# templates/contact.html.twig #}
-<!DOCTYPE html>
 
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mon Site Symfony</title>
+{% extends 'base.html.twig' %}
 
-        
-</head>
-<body>
-    <h1>Vous êtes sur la page contact</h1>
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+<div class="example-wrapper">
+    <h1>Contactez-nous</h1>
     <p>Voulez-vous nous contacter ? symfony@project.com</p>
-</body>
-</html>
+</div>
+{% endblock %}

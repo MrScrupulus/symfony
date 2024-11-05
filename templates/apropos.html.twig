@@ -1,15 +1,12 @@
-{# templates/apropos.html.twig #}
 
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mon Site Symfony</title>
-                
-</head>
-<body>
-    <h1>A notre sujet</h1>
-    <p>A propos de Symfony_Project</p>  
-</body>
-</html>
+
+{% extends 'base.html.twig' %}
+
+{% block title %}A propos{% endblock %}
+
+{% block body %}
+<div class="example-wrapper">
+    <h1>A propos de nous </h1>
+    <p>Que voulez-vous savoir sur symfony_project</p>
+</div>
+{% endblock %}
