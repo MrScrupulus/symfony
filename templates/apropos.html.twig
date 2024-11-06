@@ -1,12 +1,64 @@
-
-
 {% extends 'base.html.twig' %}
 
 {% block title %}A propos{% endblock %}
 
 {% block body %}
-<div class="example-wrapper">
-    <h1>A propos de nous </h1>
-    <p>Que voulez-vous savoir sur symfony_project</p>
+<div class="apropos">
+    <h1>A propos de nous</h1>
+    <p>Que voulez-vous savoir sur symfony_project ?</p>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        
+        {# <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        </ol> #}
+
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card">
+                    <img class="imgfiche" src="#" alt="Image de Personne 1">
+                    <div class="fiche">
+                        <h5 class="prenom">Perrine</h5>
+                        <p class="titre">Petite diablesse de la programmation</p>
+                        <p class="presentation">Développeuse assidue et passionnée, elle aime faire des trucs cools et boire des cocktails.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <img class="imgfiche" src="#" alt="Image de Personne 2">
+                    <div class="fiche">
+                        <h5 class="prenom">Adrien</h5>
+                        <p class="titre">Petit italien de la programmation</p>
+                        <p class="presentation">Codeur fou, grand admirateur de Grafikart et buveur de roulées et fumeur de café.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <img class="imgfiche" src="#" alt="Image de Personne 3">
+                    <div class="fiche">
+                        <h5 class="prenom">Fred</h5>
+                        <p class="titre">Grand marabou de la programmation</p>  
+                        <p class="presentation">Shaman aguerri à ses heures perdues, grand astronome reconnu et collectionneur d'affiches de films des années 60.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>   
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    
 </div>
 {% endblock %}
+

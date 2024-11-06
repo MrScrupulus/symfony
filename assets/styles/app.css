@@ -1,3 +1,18 @@
 body {
-    background-color: skyblue;
+  background-color: darkviolet;
+  color: yellowgreen;
+}
+footer {
+  color: orangered;
+  position: absolute;
+  bottom: 0;
+}
+.nav-link {
+  color: chartreuse;
+}
+/* .carousel-control-prev .carousel-control-next {
+  margin: 100 px;
+} */
+.carouselExampleIndicators {
+  padding: 20px;
 }
