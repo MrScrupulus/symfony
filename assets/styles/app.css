@@ -17,7 +17,12 @@ footer {
   z-index: 10;} */
 
 button:hover {
-  background-color: #0057b334;
+  background-color: #0057b377;
   color: #ffffff;
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Ombre plus prononcée au survol */
+}
+.fiche {
+  text-align: inherit;
+  /* padding: 50px; */
+  padding-left: 250px;
 }
