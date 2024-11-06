@@ -10,9 +10,6 @@ footer {
 .nav-link {
   color: chartreuse;
 }
-/* .carousel-control-prev .carousel-control-next {
-  margin: 100 px;
-} */
-.carouselExampleIndicators {
-  padding: 20px;
+button {
+  display: none;
 }
